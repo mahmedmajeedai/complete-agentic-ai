@@ -6,7 +6,4 @@ few important things from practical
 - apart from init_chat_model, there is specific libraries for each model, e.g openai, gemini etc
 - stream, show output while its generation
 - batch, multiple prompts in one list, and get their responses in parallel, improves performance and reduce api costs
-
-Rewrite my experience section naturally include those keywords and remove the redflags. Use google x,y,z formula, where z accomplish x as measured by y by doing z
-
-Act as an ATS filter and a hiring manager reading 200 resume in one sitting scan my new resume and tell me which sections would get skipped andrewrite them so that they actually stop scroll
+- The tool we have created should be bind (-> <-) with llm model.
