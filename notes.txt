@@ -7,3 +7,6 @@ few important things from practical
 - stream, show output while its generation
 - batch, multiple prompts in one list, and get their responses in parallel, improves performance and reduce api costs
 - The tool we have created should be bind (-> <-) with llm model.
+- messages are objects which has role, data and meta-data. These are used in Langchain while working with LLM.
+- Text prompt(simple task with no role, just do it) , message prompt (instuction based query), it has system message, human message, AI message, tool message
+- model.with_strctured_output(claas_name) is used make model output strctured output
